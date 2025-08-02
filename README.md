@@ -64,59 +64,9 @@ It also features a clean and user-friendly **Gradio** web interface for easy int
 
 ---
 
-## 📦 Installation & Usage
+## 📦 Installation
 
 ### 🔧 Installation
-```bash
 pip install torch transformers gradio
-▶️ Usage
-If you're running the code in a Python script:
 
-bash
-Copy
-Edit
-python app.py
-If using a Jupyter Notebook or Google Colab:
 
-Just run all cells in order.
-
-Gradio will generate a public link to open the interface.
-
-📁 File Structure
-bash
-Copy
-Edit
-├── Fake-news-generator-and-detector.ipynb   # Main notebook file
-├── README.md                                # Project documentation
-📌 Future Improvements
-Fine-tune GPT-2 on domain-specific datasets for more relevant generation.
-
-Improve BERT classification accuracy with custom datasets.
-
-Add support for multilingual fake news detection.
-
-Deploy the model using Flask or FastAPI for production use.
-
-Add a download option for generated articles.
-
-Add explainability using LIME or SHAP for the BERT model.
-
-🧪 Sample Use Cases
-Education: Demonstrate AI's ability to generate and detect fake content.
-
-Research: Explore ethical AI and misinformation propagation.
-
-Media: Assist fact-checking by quickly validating article content.
-
-📚 References
-Hugging Face Transformers
-
-Gradio Documentation
-
-LIAR Dataset (Fake News Detection)
-
-🔒 Disclaimer
-This tool is created for educational and research purposes only. Generating or spreading misinformation intentionally is unethical and may be illegal. Use responsibly.
-
-🤝 Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change or improve.
